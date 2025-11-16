@@ -1,7 +1,7 @@
-# أمانتي (Amenti) - Intelligent Driver Safety System
+# أمانتي (Amanti) - Intelligent Driver Safety System
 
 ## Overview
-Amenti is an integrated hardware-software solution that brings advanced driver safety features to all vehicles through retrofittable technology. The system combines AI-powered object detection, driver health monitoring, and V2X communication to create a comprehensive safety ecosystem.
+Amanti is an integrated hardware-software solution that brings advanced driver safety features to all vehicles through retrofittable technology. The system combines AI-powered object detection, driver health monitoring, and V2X communication to create a comprehensive safety ecosystem.
 
 ## System Architecture
 
