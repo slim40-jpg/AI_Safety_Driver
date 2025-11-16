@@ -1,37 +1,49 @@
-![Driver Drowsiness Detection](https://firebasestorage.googleapis.com/v0/b/neelanjan-manna.appspot.com/o/project-images%2FDrowsiness%20Detection.jpeg?alt=media&token=74c92bdd-0beb-4543-b7af-c0fabc9326d5)
-<h1 align="center">Welcome to Driver Drowsiness Detector 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/NeelanjanManna" target="_blank">
-    <img alt="Twitter: NeelanjanManna" src="https://img.shields.io/twitter/follow/NeelanjanManna.svg?style=social" />
-  </a>
-</p>
+# Amanti - Driver Drowsiness Detection System
 
-> A real-time drowsiness detection system for drivers, which alerts the driver if they fall asleep due to fatigue while still driving. The computer vision algorithm used for the implementation uses a trifold approach to detect drowsiness, including the measurement of forward head tilt angle, measurement of eye aspect ratio (to detect closure of eyes) and measurement of mouth aspect ratio (to detect yawning).
+## Overview
+Amanti's Drowsiness Detection System is an AI-powered safety feature that monitors driver alertness in real-time using computer vision and biometric sensors to prevent fatigue-related accidents.
 
-### 🏠 [Homepage](https://github.com/neelanjan00/Driver-Drowsiness-Detection)
+## Features
 
-## Install
+### Real-time Monitoring
+- **Facial Analysis**: Tracks eye closure, blinking patterns, and yawning
+- **Head Position**: Monitors head nodding and position changes
+- **Biometric Data**: Integrates with smartwatch for heart rate variability
 
-```sh
-pip install -r Requirements.txt
-```
+### Alert System
+- **Visual Alerts**: On-screen warnings with increasing intensity
+- **Audio Alerts**: Progressive sound alerts from gentle to urgent
+- **Haptic Feedback**: Smartwatch vibrations for physical notification
+- **Emergency Protocol**: Automatic safety measures for severe cases
 
-## Usage
+### Safety Actions
+- **Early Warning**: Gentle alerts at first signs of fatigue
+- **Break Reminders**: Suggests rest stops when needed
+- **Emergency Contacts**: Notifies designated contacts if unresponsive
+- **Emergency Services**: Automatic alert with location for critical situations
 
-```sh
-python Driver\ Drowsiness\ Detection.py
-```
+## Technology Stack
 
-## Author
+### Hardware Requirements
+- Mobile device with front-facing camera
+- Optional: Smartwatch with heart rate monitor
+- Raspberry Pi 5 (for vehicle integration)
 
-👤 **Neelanjan Manna**
+### AI Components
+- **Computer Vision**: Real-time facial landmark detection
+- **Behavioral Analysis**: Eye aspect ratio calculation
+- **Pattern Recognition**: Fatigue pattern identification
+- **Sensor Fusion**: Combines visual and biometric data
 
-* Website: https://neelanjanmanna.ml/
-* Twitter: [@NeelanjanManna](https://twitter.com/NeelanjanManna)
-* Github: [@neelanjan00](https://github.com/neelanjan00)
-* LinkedIn: [@neelanjan00](https://linkedin.com/in/neelanjan00)
+## Installation
 
-## Show your support
+### Mobile Application
+```bash
+# Clone the repository
+git clone https://github.com/amanti/drowsiness-detection.git
 
-Give a ⭐️ if this project helped you!
+# Install dependencies
+npm install
+
+# Run the application
+npm start
