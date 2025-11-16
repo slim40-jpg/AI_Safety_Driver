@@ -10,11 +10,12 @@ Amanti is an integrated hardware-software solution that brings advanced driver s
 - **4 External Cameras** - 360° vehicle surveillance
 - **Solar-Powered Module** - Sustainable energy source
 - **V2X Communication** - Vehicle-to-everything connectivity
+- **Smart Watch Integration** - Health monitoring sensors
 
 ### Software Components
 - **Mobile Application** - Real-time interface and alerts
-- **Smart Watch Integration** - Health and biometric monitoring
 - **Cloud Services** - Community data and analytics
+- **AI Models** - YOLOv11 for object detection
 
 ## Key Features
 
@@ -50,20 +51,6 @@ Amanti is an integrated hardware-software solution that brings advanced driver s
 - Smartwatch sensors (health metrics)
 - GPS and motion sensors
 
-## Installation
-
-### Hardware Setup
-1. Mount 4 external cameras on vehicle
-2. Install Raspberry Pi 5 module on dashboard
-3. Connect solar power unit
-4. Pair with mobile device
-
-### Software Setup
-1. Install Amenti mobile application
-2. Pair smartwatch with application
-3. Configure safety preferences
-4. Connect to cloud services
-
 ## RSE Alignment
 
 | Aspect | Implementation |
@@ -93,9 +80,5 @@ This project uses:
 
 MIT License - See LICENSE file for details
 
-## Contact
-
-For more information about Amenti and collaboration opportunities, please contact our development team.
-
 ---
-**Making road safety accessible to everyone**
+**Making road safety accessible to everyone - Amanti**
